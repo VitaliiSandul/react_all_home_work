@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-custom{
+  width: 100px;
+  margin: 20px;
+}
+
+.elem{
+  width: 95%;
+  margin: 10px auto;
+}
+
+.elem-center{
+  display: flex;
+  justify-content: center;
+}
+
+.elem-center-h100{
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin: 5px auto;
+}
+
+.elem-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.elem-center div, .elem-center label, .elem-center{
+  margin: 5px;
+}
+
+.elem3{
+  display: flex;
+  justify-content: center;
+}
+
+.person-elem, .planet-elem, .starship-elem, .vehicle-elem{  
+  width: 250px;
+}
+
+.film-elem{  
+  width: 350px;
+}
+
+.person-border, .film-border, .planet-border, .starship-border, .vehicle-border{
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.person-prop, .film-prop, .planet-prop, .starship-prop, .vehicle-prop{
+  display: flex;
+  justify-content: space-between;
+}

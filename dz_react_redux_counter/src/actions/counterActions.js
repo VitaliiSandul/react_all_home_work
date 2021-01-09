@@ -1,0 +1,7 @@
+export const INCREMENT = 'INCREMENT'
+export const DECREMENT = 'DECREMENT'
+export const RESET = 'RESET'
+export const DOUBLED = 'DOUBLED'
+export const ADDSAME = 'ADDSAME'
+export const SETVALUE = 'SETVALUE'
+export const UPDATEVALUE = 'UPDATEVALUE'
